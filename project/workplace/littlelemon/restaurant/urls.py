@@ -7,4 +7,5 @@ urlpatterns = [
     path('about/', views.about, name="about"),
     path('book/', views.book, name="book"),
     # Add the remaining URL path configurations here
+    path('menu/', views.menu, name="menu"),
 ]
